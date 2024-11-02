@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dsq",
+        "missing": "dsq"
+      },
+      "name": "default"
+    }
+  }
+}

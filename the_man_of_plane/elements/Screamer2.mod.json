@@ -1,0 +1,31 @@
+{
+  "_fv": 69,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "dsd.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": -99,
+          "y": -40
+        }
+      }
+    ],
+    "baseTexture": "dsd.png",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "AfficherScreamer2"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

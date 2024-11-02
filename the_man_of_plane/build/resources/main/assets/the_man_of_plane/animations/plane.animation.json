@@ -1,0 +1,74 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"marche": {
+			"animation_length": 3.4583,
+			"bones": {
+				"ALL": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -37.5],
+							"easing": "linear"
+						},
+						"3.4583": {
+							"vector": [0, 0, -45],
+							"easing": "linear"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [3552, 3430, 0],
+							"easing": "linear"
+						},
+						"3.4583": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"helis21": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"3.25": {
+							"vector": [584.19, 0, 0],
+							"easing": "linear"
+						},
+						"3.375": {
+							"vector": [6250, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"heliS1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"2.5": {
+							"vector": [1531.69, 0, 0],
+							"easing": "linear"
+						},
+						"2.5833": {
+							"vector": [5140, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			},
+			"sound_effects": {},
+			"particle_effects": {
+				"2.3333": {
+					"effect": "campfire_signal_smoke"
+				}
+			}
+		},
+		"Idle": {
+			"loop": true
+		}
+	},
+	"geckolib_format_version": 2
+}

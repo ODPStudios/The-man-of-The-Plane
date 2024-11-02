@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "the_man_of_plane:item/fds"
+  },
+  "render_type": "translucent"
+}

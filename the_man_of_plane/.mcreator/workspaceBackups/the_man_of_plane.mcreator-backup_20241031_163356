@@ -1,0 +1,1126 @@
+{
+  "mod_elements": [
+    {
+      "name": "Plane",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plane",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/entity/PlaneEntity.java",
+          "src/main/resources/assets/the_man_of_plane/models/item/plane_spawn_egg.json",
+          "src/main/java/net/themanofplane/entity/model/PlaneModel.java",
+          "src/main/java/net/themanofplane/client/renderer/PlaneRenderer.java"
+        ]
+      },
+      "path": "~/Plane"
+    },
+    {
+      "name": "PlaneLorsDeLapparitionInitialeDeLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plane_lors_de_lapparition_initiale_de_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/PlaneLorsDeLapparitionInitialeDeLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Plane"
+    },
+    {
+      "name": "Cadavre1",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cadavre_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_man_of_plane/models/item/cadavre_1_spawn_egg.json",
+          "src/main/java/net/themanofplane/entity/model/Cadavre1Model.java",
+          "src/main/java/net/themanofplane/entity/Cadavre1Entity.java",
+          "src/main/java/net/themanofplane/client/renderer/Cadavre1Renderer.java"
+        ]
+      },
+      "path": "~/Background"
+    },
+    {
+      "name": "Cadavre2",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cadavre_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/entity/Cadavre2Entity.java",
+          "src/main/java/net/themanofplane/client/renderer/Cadavre2Renderer.java",
+          "src/main/java/net/themanofplane/entity/model/Cadavre2Model.java",
+          "src/main/resources/assets/the_man_of_plane/models/item/cadavre_2_spawn_egg.json"
+        ]
+      },
+      "path": "~/Background"
+    },
+    {
+      "name": "Spawnplane",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnplane",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/SpawnplaneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Plane"
+    },
+    {
+      "name": "Language",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "language",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/LanguageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Language"
+    },
+    {
+      "name": "Choicelanguage",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choicelanguage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/network/ChoicelanguageButtonMessage.java",
+          "src/main/java/net/themanofplane/client/gui/ChoicelanguageScreen.java",
+          "src/main/java/net/themanofplane/world/inventory/ChoicelanguageMenu.java"
+        ]
+      },
+      "path": "~/Language"
+    },
+    {
+      "name": "Frenchechoice",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frenchechoice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/FrenchechoiceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Language"
+    },
+    {
+      "name": "Englishchoice",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "englishchoice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/EnglishchoiceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Language"
+    },
+    {
+      "name": "Blood1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_man_of_plane/models/item/blood_1.json",
+          "src/main/resources/assets/the_man_of_plane/blockstates/blood_1.json",
+          "src/main/resources/assets/the_man_of_plane/models/block/blood_1.json",
+          "src/main/resources/data/the_man_of_plane/loot_tables/blocks/blood_1.json",
+          "src/main/java/net/themanofplane/block/Blood1Block.java"
+        ]
+      },
+      "path": "~/Background"
+    },
+    {
+      "name": "Blood2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_man_of_plane/models/block/blood_2.json",
+          "src/main/java/net/themanofplane/block/Blood2Block.java",
+          "src/main/resources/data/the_man_of_plane/loot_tables/blocks/blood_2.json",
+          "src/main/resources/assets/the_man_of_plane/models/item/blood_2.json",
+          "src/main/resources/assets/the_man_of_plane/blockstates/blood_2.json"
+        ]
+      },
+      "path": "~/Background"
+    },
+    {
+      "name": "Blood3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_man_of_plane/loot_tables/blocks/blood_3.json",
+          "src/main/resources/assets/the_man_of_plane/blockstates/blood_3.json",
+          "src/main/resources/assets/the_man_of_plane/models/block/blood_3.json",
+          "src/main/resources/assets/the_man_of_plane/models/item/blood_3.json",
+          "src/main/java/net/themanofplane/block/Blood3Block.java"
+        ]
+      },
+      "path": "~/Background"
+    },
+    {
+      "name": "Steve",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/entity/model/SteveModel.java",
+          "src/main/java/net/themanofplane/entity/SteveEntity.java",
+          "src/main/java/net/themanofplane/client/renderer/SteveRenderer.java",
+          "src/main/resources/assets/the_man_of_plane/models/item/steve_spawn_egg.json"
+        ]
+      },
+      "path": "~/Steve"
+    },
+    {
+      "name": "Steveblesser",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steveblesser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/entity/SteveblesserEntity.java",
+          "src/main/resources/assets/the_man_of_plane/models/item/steveblesser_spawn_egg.json",
+          "src/main/java/net/themanofplane/client/renderer/SteveblesserRenderer.java",
+          "src/main/java/net/themanofplane/entity/model/SteveblesserModel.java"
+        ]
+      },
+      "path": "~/Steve"
+    },
+    {
+      "name": "Demandeouiounon",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demandeouiounon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/world/inventory/DemandeouiounonMenu.java",
+          "src/main/java/net/themanofplane/network/DemandeouiounonButtonMessage.java",
+          "src/main/java/net/themanofplane/client/gui/DemandeouiounonScreen.java"
+        ]
+      },
+      "path": "~/Steve"
+    },
+    {
+      "name": "SteveblesserQuandLeJoueurFaitUnClicDroitSurLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steveblesser_quand_le_joueur_fait_un_clic_droit_sur_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/SteveblesserQuandLeJoueurFaitUnClicDroitSurLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Steve"
+    },
+    {
+      "name": "Ouiyes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouiyes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/OuiyesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Steve"
+    },
+    {
+      "name": "Nono",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nono",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/NonoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Steve"
+    },
+    {
+      "name": "SteveQuandLeJoueurEntreEnCollisionAvecLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_quand_le_joueur_entre_en_collision_avec_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/SteveQuandLeJoueurEntreEnCollisionAvecLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Steve"
+    },
+    {
+      "name": "DDDD",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dddd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_man_of_plane/models/item/dddd.json",
+          "src/main/java/net/themanofplane/item/DDDDItem.java"
+        ]
+      },
+      "path": "~/Parametre"
+    },
+    {
+      "name": "TheManOfPlane",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_man_of_plane",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Parametre"
+    },
+    {
+      "name": "Steveeffrayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steveeffrayer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/SteveeffrayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic"
+      },
+      "path": "~/Steve"
+    },
+    {
+      "name": "Panneauspawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panneauspawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/PanneauspawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Parametre"
+    },
+    {
+      "name": "Stevehorrorphase1",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stevehorrorphase_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/entity/model/Stevehorrorphase1Model.java",
+          "src/main/resources/assets/the_man_of_plane/models/item/stevehorrorphase_1_spawn_egg.json",
+          "src/main/java/net/themanofplane/entity/Stevehorrorphase1Entity.java",
+          "src/main/java/net/themanofplane/client/renderer/Stevehorrorphase1Renderer.java"
+        ]
+      },
+      "path": "~/SteveHorrorPhase1"
+    },
+    {
+      "name": "Stevehorrorphase1LorsDeLapparitionInitialeDeLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stevehorrorphase_1_lors_de_lapparition_initiale_de_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/Stevehorrorphase1LorsDeLapparitionInitialeDeLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SteveHorrorPhase1"
+    },
+    {
+      "name": "Screamer1",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screamer_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/client/screens/Screamer1Overlay.java"
+        ]
+      },
+      "path": "~/SteveHorrorPhase1"
+    },
+    {
+      "name": "AffichageScreamer1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "affichage_screamer_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/themanofplane/procedures/AffichageScreamer1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SteveHorrorPhase1"
+    },
+    {
+      "name": "SteveHorrorPhase2",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_horror_phase_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_man_of_plane/models/item/steve_horror_phase_2_spawn_egg.json",
+          "src/main/java/net/themanofplane/client/renderer/SteveHorrorPhase2Renderer.java",
+          "src/main/java/net/themanofplane/entity/SteveHorrorPhase2Entity.java",
+          "src/main/java/net/themanofplane/entity/model/SteveHorrorPhase2Model.java"
+        ]
+      },
+      "path": "~/SteveHorrorPhase2"
+    },
+    {
+      "name": "SteveHorrorPhase2LorsDeLapparitionInitialeDeLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_horror_phase_2_lors_de_lapparition_initiale_de_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/SteveHorrorPhase2LorsDeLapparitionInitialeDeLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SteveHorrorPhase2"
+    },
+    {
+      "name": "Screamer2",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screamer_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/client/screens/Screamer2Overlay.java"
+        ]
+      },
+      "path": "~/SteveHorrorPhase2"
+    },
+    {
+      "name": "AfficherScreamer2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "afficher_screamer_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/themanofplane/procedures/AfficherScreamer2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SteveHorrorPhase2"
+    },
+    {
+      "name": "Screamer3",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screamer_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/client/screens/Screamer3Overlay.java"
+        ]
+      },
+      "path": "~/Screamer Generale"
+    },
+    {
+      "name": "AffIChagescreamer3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aff_i_chagescreamer_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/themanofplane/procedures/AffIChagescreamer3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Screamer Generale"
+    },
+    {
+      "name": "SpawnScreamer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_screamer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/themanofplane/procedures/SpawnScreamerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Screamer Generale"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "trueofflaseplane",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "languagefrench",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "languageenglish",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "langualeallow",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "changedifficult",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "displaychoice",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "animationdeathesteve",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "aniamtionyessteve",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "animationsuitesteve",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "CYCLENIGHJT",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "cycleflas",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "teste1",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "teste2",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "tueorfalse1A",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "TrueOrFlalseScreamer1",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "TureorFalsescreamer1_2",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "Screamer2_1",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "Screamer2_2",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "Screamer3_1",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "Screamer3_2",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "crash",
+      "files": [
+        "plane-crash-sound-fx-77bpm-a-minor_dclyngqn"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tousse1",
+      "files": [
+        "hmncough_toux_homme_5_id_2183_ls_1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "blood",
+      "files": [
+        "_fr_sound_un-vampire-poignarde-et-boit-du-sang_"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "horrrorsound1",
+      "files": [
+        "horror-dark-sound-1-98228"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "help2",
+      "files": [
+        "videoplayback"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "stevehorrore1",
+      "files": [
+        "ghost"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "fdfggg",
+      "files": [
+        "demo-cri-monstre-delai-01_zzfnfpyy_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "soundscreamer1",
+      "files": [
+        "cry-131025"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "screamer3",
+      "files": [
+        "dfsdfsdfs"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "help",
+      "files": [
+        "soundhelp"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "screamer2",
+      "files": [
+        "dfsdfsdfs"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.fdfggg": "",
+      "block.the_man_of_plane.blood_1": "Blood 1",
+      "block.the_man_of_plane.blood_2": "Blood 1",
+      "subtitles.blood": "",
+      "gui.the_man_of_plane.demandeouiounon.button_oui": "Yes",
+      "gui.the_man_of_plane.choicelanguage.button_english": "English",
+      "gui.the_man_of_plane.demandeouiounon.label_ce_choix_aura_un_impacte_dans_le": "(This choice will have an impact",
+      "subtitles.help2": "",
+      "gui.the_man_of_plane.demandeouiounon.label_ou": "Or",
+      "item.the_man_of_plane.dddd": "DDDD",
+      "block.the_man_of_plane.blood_3": "Blood 1",
+      "item.the_man_of_plane.steve_spawn_egg": "Steve Spawn Egg",
+      "subtitles.soundscreamer2": "",
+      "entity.the_man_of_plane.steve": "Steve",
+      "subtitles.tousse1": "",
+      "subtitles.soundscreamer1": "",
+      "subtitles.screamer2": "",
+      "gui.the_man_of_plane.choicelanguage.button_francais": "Francais",
+      "entity.the_man_of_plane.cadavre_1": "Corpse 1",
+      "item.the_man_of_plane.cadavre_2_spawn_egg": "Corpse 2 Spawn Egg",
+      "entity.the_man_of_plane.cadavre_2": "Corpse 2",
+      "subtitles.screamer3": "",
+      "entity.the_man_of_plane.steveblesser": "Steve help",
+      "gui.the_man_of_plane.demandeouiounon.label_aidezvous_le_survivant": "Are you helping the Survivor?",
+      "subtitles.monster1": "",
+      "subtitles.help": "",
+      "subtitles.crash": "",
+      "item.the_man_of_plane.steveblesser_spawn_egg": "Steve help Spawn Egg",
+      "entity.the_man_of_plane.steve_horror_phase_2": "Steve Horror 2",
+      "gui.the_man_of_plane.demandeouiounon.label_dans_le_future": "in the Future...)",
+      "item.the_man_of_plane.cadavre_1_spawn_egg": "Corpse 1 Spawn Egg",
+      "item_group.the_man_of_plane.the_man_of_plane": "The Man Of Plane",
+      "subtitles.stevehorrore1": "",
+      "item.the_man_of_plane.steve_horror_phase_2_spawn_egg": "Steve Horror 2 Spawn Egg",
+      "entity.the_man_of_plane.stevehorrorphase_1": "Steve Horror 1",
+      "entity.the_man_of_plane.plane": "Plane",
+      "gui.the_man_of_plane.demandeouiounon.button_non": "No",
+      "subtitles.horrrorsound1": "",
+      "item.the_man_of_plane.stevehorrorphase_1_spawn_egg": "Steve Horror 1 Spawn Egg",
+      "item.the_man_of_plane.plane_spawn_egg": "Plane Spawn Egg"
+    },
+    "fr_fr": {
+      "subtitles.fdfggg": "",
+      "block.the_man_of_plane.blood_1": "Sang 1",
+      "block.the_man_of_plane.blood_2": "Sang 2",
+      "subtitles.blood": "",
+      "gui.the_man_of_plane.demandeouiounon.button_oui": "Oui",
+      "gui.the_man_of_plane.choicelanguage.button_english": "English",
+      "gui.the_man_of_plane.demandeouiounon.label_ce_choix_aura_un_impacte_dans_le": "(Ce choix aura un impacte",
+      "subtitles.help2": "",
+      "gui.the_man_of_plane.demandeouiounon.label_ou": "Ou",
+      "item.the_man_of_plane.dddd": "DDDD",
+      "block.the_man_of_plane.blood_3": "Sang 3",
+      "item.the_man_of_plane.steve_spawn_egg": "Steve",
+      "subtitles.soundscreamer2": "",
+      "entity.the_man_of_plane.steve": "Steve",
+      "subtitles.tousse1": "",
+      "subtitles.soundscreamer1": "",
+      "subtitles.screamer2": "",
+      "gui.the_man_of_plane.choicelanguage.button_francais": "Francais",
+      "entity.the_man_of_plane.cadavre_1": "Cadavre 1",
+      "item.the_man_of_plane.cadavre_2_spawn_egg": "Cadavre 2 Spawn Egg",
+      "entity.the_man_of_plane.cadavre_2": "Cadavre 2",
+      "subtitles.screamer3": "",
+      "entity.the_man_of_plane.steveblesser": "Steve aider",
+      "gui.the_man_of_plane.demandeouiounon.label_aidezvous_le_survivant": "Aidez-vous le Survivant ?",
+      "subtitles.monster1": "",
+      "subtitles.help": "",
+      "subtitles.crash": "",
+      "item.the_man_of_plane.steveblesser_spawn_egg": "Steve ",
+      "entity.the_man_of_plane.steve_horror_phase_2": "Steve Horreur 2",
+      "gui.the_man_of_plane.demandeouiounon.label_dans_le_future": " dans le Future...)",
+      "item.the_man_of_plane.cadavre_1_spawn_egg": "Cadavre 1 Spawn Egg",
+      "item_group.the_man_of_plane.the_man_of_plane": "The Man Of Plane",
+      "subtitles.stevehorrore1": "",
+      "item.the_man_of_plane.steve_horror_phase_2_spawn_egg": "Steve Horreur 2 ",
+      "entity.the_man_of_plane.stevehorrorphase_1": "Steve Horreur 1",
+      "entity.the_man_of_plane.plane": "Avion",
+      "gui.the_man_of_plane.demandeouiounon.button_non": "Non",
+      "subtitles.horrrorsound1": "",
+      "item.the_man_of_plane.stevehorrorphase_1_spawn_egg": "Steve Horreur 1 ",
+      "item.the_man_of_plane.plane_spawn_egg": "Avion "
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Language",
+        "children": []
+      },
+      {
+        "name": "Plane",
+        "children": []
+      },
+      {
+        "name": "Steve",
+        "children": []
+      },
+      {
+        "name": "Parametre",
+        "children": []
+      },
+      {
+        "name": "Background",
+        "children": []
+      },
+      {
+        "name": "SteveHorrorPhase1",
+        "children": []
+      },
+      {
+        "name": "SteveHorrorPhase2",
+        "children": []
+      },
+      {
+        "name": "Screamer Generale",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_man_of_plane",
+    "modName": "The Man of Plane",
+    "version": "1.0.0",
+    "description": "a mod horror",
+    "author": "ODPStudios, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "do you like mod ?",
+    "modElementsPackage": "net.themanofplane"
+  },
+  "mcreatorVersion": 202400342716
+}

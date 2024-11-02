@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_man_of_plane:block/blood_3"
+    },
+    "facing=east": {
+      "model": "the_man_of_plane:block/blood_3",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_man_of_plane:block/blood_3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_man_of_plane:block/blood_3",
+      "y": 270
+    }
+  }
+}

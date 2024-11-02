@@ -1,0 +1,10 @@
+{
+  "parent": "the_man_of_plane:custom/blood3",
+  "textures": {
+    "all": "the_man_of_plane:block/dfsg",
+    "particle": "the_man_of_plane:block/dfsg",
+    "0": "the_man_of_plane:block/dfsg",
+    "missing": "the_man_of_plane:block/dfsg"
+  },
+  "render_type": "translucent"
+}

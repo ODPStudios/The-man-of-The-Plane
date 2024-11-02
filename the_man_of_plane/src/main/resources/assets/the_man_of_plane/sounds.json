@@ -1,0 +1,90 @@
+{
+  "crash": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:plane-crash-sound-fx-77bpm-a-minor_dclyngqn",
+        "stream": false
+      }
+    ]
+  },
+  "tousse1": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:hmncough_toux_homme_5_id_2183_ls_1",
+        "stream": false
+      }
+    ]
+  },
+  "blood": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:_fr_sound_un-vampire-poignarde-et-boit-du-sang_",
+        "stream": false
+      }
+    ]
+  },
+  "horrrorsound1": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:horror-dark-sound-1-98228",
+        "stream": false
+      }
+    ]
+  },
+  "help2": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:videoplayback",
+        "stream": false
+      }
+    ]
+  },
+  "stevehorrore1": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:ghost",
+        "stream": false
+      }
+    ]
+  },
+  "fdfggg": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:demo-cri-monstre-delai-01_zzfnfpyy_1",
+        "stream": false
+      }
+    ]
+  },
+  "soundscreamer1": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:cry-131025",
+        "stream": false
+      }
+    ]
+  },
+  "screamer3": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:dfsdfsdfs",
+        "stream": false
+      }
+    ]
+  },
+  "help": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:soundhelp",
+        "stream": false
+      }
+    ]
+  },
+  "screamer2": {
+    "sounds": [
+      {
+        "name": "the_man_of_plane:dfsdfsdfs",
+        "stream": false
+      }
+    ]
+  }
+}

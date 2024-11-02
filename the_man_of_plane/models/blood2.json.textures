@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "blood1",
+        "missing": "blood1"
+      },
+      "name": "default"
+    }
+  }
+}
